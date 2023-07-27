@@ -1,0 +1,351 @@
+/*
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: white;
+
+}
+
+nav a:hover{
+    color: white(126, 30, 30);
+}
+
+
+body{
+    /* Color de fondo es con background-color */
+    background-color: white;
+    /* Cambio de tipografía */
+    font-family: cursive;
+    margin: 15;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+nav{
+    padding: 10px 0px;
+}
+
+.collage img{
+    height: 500px;
+    margin-left: 690px;
+    align-items: center;
+}
+    
+/* Para editar cada parrafo es con p */
+p{
+    color: white(236, 34, 58, 0.717);
+}
+/*Color del texto */
+/* Al editar una CLASE tiene que ir un punto antes */
+
+.a-ajolote{
+color: black;
+margin-inline-start: 200px;
+margin-inline-end: 200px;
+align-items: justify;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 0%;
+font-size: 120%;
+}
+
+.m-mandril{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.o-osopolar{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.c-chimpance{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.b-ballena{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.l-lemur{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.r-resumen{
+    color: black;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    align-items: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0%;
+    font-size: 120%;
+}
+
+.i-introduc{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    align-items: justify;
+    margin-inline-start: 100px;
+}
+.main-title{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    /* Para ponerle color a la barra del titulo es con background-color */
+    /* Cambiar tamaño de texto */
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    /* Div flexible para moverse con los elementos dentro de si */
+    display: flex;
+   /* flex direction */
+    /* Alínea items centrados */
+    align-items:first baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    /* a: ancla */
+    /* Color del texto de las anclas */
+    color: black;
+    /* Línea de bajo de las anclas */
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.frase-inicial{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(142, 198, 198, 0.589);
+    font-size: 180%;
+    display: flex;
+    align-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+   
+}
+
+.introduccion{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    align-items: justify;
+    margin-inline-start: 100px;
+
+  
+}
+
+.introduccionsig{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    margin-inline-start: 100px;
+    align-items: center;
+    align-items: justify;
+  
+}
+
+.introduccionfinal{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(142, 198, 198, 0.589);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 86%;
+}
+
+.primertitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.AJOLOTE{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.MANDRIL{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.OSOPOLAR{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.CHIMPANCE{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.BALLENA{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.LEMUR{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.ajolotito img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.mandrilcito img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.osito img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.chimpa img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.ballenita img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.lemurbb img{
+    width: 200px;
+    height: 200px;
+    margin-right: 690px;
+    align-items: center;
+    align-content: center;
+}
+
+.despedida {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(142, 198, 198, 0.589);
+    font-size: 180%;
+    display: flex;
+    align-content: center;   
+}
